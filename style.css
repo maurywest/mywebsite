@@ -1,0 +1,41 @@
+
+body{
+    margin:0px;
+}
+.image{
+    background:aqua;
+    width:200px;
+    height:200px;
+    margin:30px;
+    border:2px dashed black;
+}
+.goat{
+    background:yellow;
+    width:200px;
+    height:200px;
+    margin:30px;
+    border:2px dashed black;
+   
+}
+.container{
+    text-align:center;
+    align-items: center;
+}
+img{
+    width:50%;
+
+}
+
+.atomic{
+    background: maroon;
+    color:blue;
+}
+
+.rich{
+    background: red;
+    color:white;
+    
+}
+.container1{
+    text-align: center;
+}
