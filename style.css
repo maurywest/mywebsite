@@ -1,41 +1,69 @@
-
-body{
-    margin:0px;
-}
-.image{
-    background:aqua;
-    width:200px;
-    height:200px;
-    margin:30px;
-    border:2px dashed black;
-}
-.goat{
-    background:yellow;
-    width:200px;
-    height:200px;
-    margin:30px;
-    border:2px dashed black;
-   
-}
-.container{
-    text-align:center;
-    align-items: center;
-}
-img{
-    width:50%;
-
-}
-
-.atomic{
-    background: maroon;
+h1{
     color:blue;
 }
 
-.rich{
-    background: red;
-    color:white;
-    
+img{
+    width:300px;
+    height:200px;
+    border:2px dashed blue;
+    padding:20px;
+    box-sizing: border-box;
 }
-.container1{
+
+img:hover{
+    border:2px solid rebeccapurple;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration:none;
+    display:block;
+    transition:all 0.35s ease-out;
+}
+
+
+
+nav{
+    padding:0px;
+    margin:0px;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+
+li{
+    display:inline-block;
+    margin:20px;
+ 
+}
+
+
+
+
+.container{
+    background-color: red;
+}
+
+a:hover{
+    color:aqua;
+    transform:rotate(6deg);
+}
+.misnomer{
+    background-color: blue;
+    color:white;
+    padding:20px;
+}
+.myhome{
+    text-align:center;
+    border:3px solid blue;
+}
+.footer{
+    background-color:blue;
+    color:yellow;
     text-align: center;
 }
